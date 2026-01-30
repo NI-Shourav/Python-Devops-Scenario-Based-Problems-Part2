@@ -1,0 +1,16 @@
+Task 3: The System Health Check (JSON & Error Handling)
+Objective: Safely handle external data strings using json and try/except.
+
+Requirements:
+Create a function process_server_data(json_string).
+
+Inside the function, use json.loads() to parse the input.
+
+Wrap the parsing logic in a try/except block to catch json.JSONDecodeError.
+
+If successful, loop through the resulting list of servers and print the status of each.
+
+Test Data:
+Use this string to test your function:
+
+mock_api = '{"servers": [{"name": "web-01", "status": "up"}, {"name": "db-01", "status": "down"}]}'

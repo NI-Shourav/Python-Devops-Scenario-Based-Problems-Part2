@@ -1,0 +1,17 @@
+Task 2: The Security Auditor (Modules & Tuples)
+Objective: Practice cross-file imports and using immutable data types.
+
+Requirements:
+Create scanner.py (The Module):
+
+Define a Tuple named DANGEROUS_PORTS containing (21, 23, 445).
+
+Create a function check_ports(active_ports) that loops through a list and prints a warning if a port is found in your DANGEROUS_PORTS tuple.
+
+Create app.py (The Execution Script):
+
+Import the scanner module.
+
+Define a list of ports: [22, 80, 21, 443, 23, 8080].
+
+Call the function from your module to audit the list.
